@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bundle & Save</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Main Container for the Bundle Options -->
+    <div class="bundle-container">
+        <h2 class="bundle-title">Bundle & Save</h2>
+
+        <!-- 1 Pair Option -->
+        <div class="box" onclick="selectBox(1)">
+            <input type="radio" name="bundle" id="pair1" checked>
+            <label for="pair1">
+                <!-- Option Header -->
+                <div class="option-header">
+                    <div class="left-section">
+                        <!-- Pair Title (1 Pair) -->
+                        <span class="pair-title">1 Pair</span>
+                        <div class="price-container">
+                            <!-- Price and Old Price -->
+                            <span class="price">DKK 195.00</span>
+                            <span class="old-price"></span>
+                        </div>
+                    </div>
+                    <div class="right-section">
+                        <!-- Popular Tag (Empty for now) and Discount Tag -->
+                        <span class="popular"></span>
+                        <span class="discount">50% OFF</span>
+                    </div>
+                </div>
+            </label>
+            <!-- Box Content (Size and Colour Selection) -->
+            <div class="box-content" id="content1">
+                <div class="selection-header">
+                    <span>Size</span>
+                    <span>Colour</span>
+                </div>
+                <!-- Selection Row for 1st Pair -->
+                <div class="selection-row">
+                    <span>#1</span>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </select>
+                </div>
+                <!-- Selection Row for 2nd Pair -->
+                <div class="selection-row">
+                    <span>#2</span>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2 Pair Option -->
+        <div class="box" onclick="selectBox(2)">
+            <input type="radio" name="bundle" id="pair2">
+            <label for="pair2">
+                <!-- Option Header -->
+                <div class="option-header">
+                    <div class="left-section">
+                        <!-- Pair Title (2 Pair) -->
+                        <span class="pair-title">2 Pair</span>
+                        <div class="price-container">
+                            <!-- Price and Old Price -->
+                            <span class="price">DKK 345.00</span>
+                            <span class="old-price">DKK 195.00</span>
+                        </div>
+                    </div>
+                    <div class="right-section">
+                        <!-- Most Popular Tag and Discount Tag -->
+                        <span class="popular">Most Popular</span>
+                        <span class="discount">40% OFF</span>
+                    </div>
+                </div>
+            </label>
+            <!-- Box Content (Size and Colour Selection) -->
+            <div class="box-content" id="content2">
+                <div class="selection-header">
+                    <span>Size</span>
+                    <span>Colour</span>
+                </div>
+                <!-- Selection Row for 1st Pair -->
+                <div class="selection-row">
+                    <span>#1</span>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </select>
+                </div>
+                <!-- Selection Row for 2nd Pair -->
+                <div class="selection-row">
+                    <span>#2</span>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3 Pair Option -->
+        <div class="box" onclick="selectBox(3)">
+            <input type="radio" name="bundle" id="pair3">
+            <label for="pair3">
+                <!-- Option Header -->
+                <div class="option-header">
+                    <div class="left-section">
+                        <!-- Pair Title (3 Pair) -->
+                        <span class="pair-title">3 Pair</span>
+                        <div class="price-container">
+                            <!-- Price and Old Price -->
+                            <span class="price">DKK 528.00</span>
+                            <span class="old-price"></span>
+                        </div>
+                    </div>
+                    <div class="right-section">
+                        <!-- Popular Tag (Empty for now) and Discount Tag -->
+                        <span class="popular"></span>
+                        <span class="discount">60% OFF</span>
+                    </div>
+                </div>
+            </label>
+            <!-- Box Content (Size and Colour Selection) -->
+            <div class="box-content" id="content3">
+                <div class="selection-header">
+                    <span>Size</span>
+                    <span>Colour</span>
+                </div>
+                <!-- Selection Row for 1st Pair -->
+                <div class="selection-row">
+                    <span>#1</span>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </select>
+                </div>
+                <!-- Selection Row for 2nd Pair -->
+                <div class="selection-row">
+                    <span>#2</span>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <select>
+                        <option>Colour</option>
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shipping and Total Price Section -->
+        <div class="shipping-total-container">
+            <span class="shipping">Free 2 Day Shipping</span>
+            <span class="total">Total: <span id="total-price">DKK 360.00</span></span>
+        </div>
+        
+        <!-- Add to Cart Button -->
+        <button class="add-to-cart">+ Add to Cart</button>
+        
+    </div>
+
+    <!-- Link to External JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
